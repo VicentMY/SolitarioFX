@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Change "/path/to/lib" with the JavaFx SDK 22 lib folder path and uncomment
+#export JAVAFX="/path/to/lib"
+
+# Or change "$JAVAFX" with the JavaFx SDK 22 lib folder path
+java --module-path $JAVAFX --add-modules=javafx.controls,javafx.fxml,javafx.base,javafx.media --add-exports javafx.base/com.sun.javafx.event=ALL-UNNAMED -jar SolitarioFX.jar
