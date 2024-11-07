@@ -1,0 +1,11 @@
+.root {
+	-fx-background-color: #0c7530;
+}
+
+.fondo {
+	-fx-image: url("../decoraciones/Bliss_Fondo_Windows_XP.jpg");
+}
+
+.pajaros {
+	-fx-image: url("../decoraciones/pajaros.gif");
+}

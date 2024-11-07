@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane fx:id="Ancla" maxHeight="700.0" maxWidth="1300.0" minHeight="700.0" minWidth="1300.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.PrincipalController">
+   <children>
+      <ImageView fitHeight="736.0" fitWidth="1315.0" layoutX="-1.0" layoutY="-36.0" pickOnBounds="true" preserveRatio="true" styleClass="fondo" />
+      <ImageView fitHeight="199.0" fitWidth="217.0" layoutX="376.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true" styleClass="pajaros" />
+      <MenuBar fx:id="barraMenu" prefHeight="25.0" prefWidth="1300.0">
+        <menus>
+          <Menu fx:id="MenuJuego" mnemonicParsing="false" text="Juego">
+            <items>
+                  <MenuItem fx:id="MenuJuegoDeshacer" mnemonicParsing="false" text="Deshacer" />
+                  <MenuItem fx:id="MenuJuegoNuevo" mnemonicParsing="false" text="Nuevo Juego" />
+                  <Menu fx:id="MenuDificultad" mnemonicParsing="false" text="Dificultad">
+                    <items>
+                      <MenuItem fx:id="MenuDificultadFacil" mnemonicParsing="false" text="Fácil" />
+                        <MenuItem fx:id="MenuDificultadMedio" mnemonicParsing="false" text="Intermedio" />
+                        <MenuItem fx:id="MenuDificultadDificil" mnemonicParsing="false" text="Difícil" />
+                    </items>
+                  </Menu>
+                  <MenuItem fx:id="MenuJuegoCerrarSesion" mnemonicParsing="false" text="Cerrar Sesión" />
+              <MenuItem fx:id="MenuJuegoSalir" mnemonicParsing="false" text="Salir" />
+            </items>
+          </Menu>
+          <Menu fx:id="MenuAyuda" mnemonicParsing="false" text="Ayuda">
+            <items>
+              <MenuItem fx:id="MenuAyudaAcercaDe" mnemonicParsing="false" text="Acerca de Solitario" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Pane fx:id="Mazo" layoutX="39.0" layoutY="65.0" prefHeight="143.0" prefWidth="108.0" style="-fx-border-color: black; -fx-border-radius: 10;" styleClass="marcos" />
+      <Pane fx:id="Set" layoutX="229.0" layoutY="65.0" prefHeight="143.0" prefWidth="108.0" styleClass="marcos" />
+      <Pane fx:id="Cimiento1" layoutX="606.0" layoutY="65.0" prefHeight="143.0" prefWidth="108.0" style="-fx-border-color: black; -fx-border-radius: 10;" styleClass="marcos" />
+      <Pane fx:id="Cimiento2" layoutX="786.0" layoutY="65.0" prefHeight="143.0" prefWidth="108.0" style="-fx-border-color: black; -fx-border-radius: 10;" styleClass="marcos" />
+      <Pane fx:id="Cimiento3" layoutX="975.0" layoutY="65.0" prefHeight="143.0" prefWidth="108.0" style="-fx-border-color: black; -fx-border-radius: 10;" styleClass="marcos" />
+      <Pane fx:id="Cimiento4" layoutX="1169.0" layoutY="65.0" prefHeight="143.0" prefWidth="108.0" style="-fx-border-color: black; -fx-border-radius: 10;" styleClass="marcos" />
+      <Pane fx:id="Tablero1" layoutX="39.0" layoutY="257.0" prefHeight="143.0" prefWidth="108.0" style="-fx-border-color: black; -fx-border-radius: 10;" styleClass="marcos" />
+      <Pane fx:id="Tablero2" layoutX="229.0" layoutY="257.0" prefHeight="143.0" prefWidth="108.0" style="-fx-border-color: black; -fx-border-radius: 10;" styleClass="marcos" />
+      <Pane fx:id="Tablero3" layoutX="421.0" layoutY="257.0" prefHeight="143.0" prefWidth="108.0" style="-fx-border-color: black; -fx-border-radius: 10;" styleClass="marcos" />
+      <Pane fx:id="Tablero4" layoutX="606.0" layoutY="257.0" prefHeight="143.0" prefWidth="108.0" style="-fx-border-color: black; -fx-border-radius: 10;" styleClass="marcos" />
+      <Pane fx:id="Tablero5" layoutX="786.0" layoutY="257.0" prefHeight="143.0" prefWidth="108.0" style="-fx-border-color: black; -fx-border-radius: 10;" styleClass="marcos" />
+      <Pane fx:id="Tablero6" layoutX="975.0" layoutY="257.0" prefHeight="143.0" prefWidth="108.0" style="-fx-border-color: black; -fx-border-radius: 10;" styleClass="marcos" />
+      <Pane fx:id="Tablero7" layoutX="1169.0" layoutY="257.0" prefHeight="143.0" prefWidth="108.0" style="-fx-border-color: black; -fx-border-radius: 10;" styleClass="marcos" />
+   </children>
+</AnchorPane>

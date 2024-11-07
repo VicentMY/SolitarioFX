@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="430.0" prefWidth="600.0" style="-fx-background-color: #b9ffe3; -fx-font-family: sans-serif;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.AcercaDeController">
+   <children>
+   	  <Label layoutX="14.0" layoutY="15.0" styleClass="tituloH2" text="Sobre el proyecto">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Label>
+      <Label layoutX="20.0" layoutY="212.0" styleClass="tituloH2" text="Software y recursos utilizados">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Label>
+      <Label layoutX="20.0" layoutY="242.0" text="Programado utilizando Eclipse IDE for Java Developers 2023-09 (4.29.0)" />
+      <Label layoutX="20.0" layoutY="272.0" text="Versión de Java Utilizada:  Java 17" />
+      <Label layoutX="20.0" layoutY="302.0" text="Versión de JavaFX Utilizada: OpenJavaFX  22" />
+      <Label layoutX="20.0" layoutY="332.0" text="Interfaz gráfica diseñada con: JavaFX Scene Builder 21.0.0" />
+      <Label layoutX="14.0" layoutY="43.0" prefHeight="48.0" prefWidth="552.0" text="Este juego ha sido realizado con el fin de aprender a crear juegos básicos con interfaz gráfica usando JavaFX." wrapText="true" />
+      <Label layoutX="13.0" layoutY="91.0" text="Autor: Vicent Martinez Yerves (VicentMY@GitHub)" />
+      <ImageView fitHeight="63.0" fitWidth="170.0" layoutX="93.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icon/solitario.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="63.0" fitWidth="170.0" layoutX="364.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icon/JavaFX_Logo.png" />
+         </image>
+      </ImageView>
+      <Hyperlink fx:id="EnlaceFreepik" layoutX="483.0" layoutY="384.0" text="Freepik.es" textFill="RED" />
+      <Hyperlink fx:id="EnlaceCodeGoogle" layoutX="464.0" layoutY="350.0" text="code.Google.com" textFill="RED" />
+      <Label layoutX="20.0" layoutY="360.0" prefHeight="48.0" prefWidth="423.0" text="Iconos de las cartas y reversos obtenidos de Freepik.es y code.Google.com. Enlaces: " wrapText="true" />
+   </children>
+</AnchorPane>
